@@ -320,13 +320,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 890120582}
-  m_LocalRotation: {x: -0, y: -0.9822872, z: 0, w: -0.18738128}
-  m_LocalPosition: {x: 1790, y: 12, z: 1912}
+  m_LocalRotation: {x: 0, y: -0.9707165, z: 0, w: 0.24022801}
+  m_LocalPosition: {x: 1497, y: 12, z: 2405}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1302246475}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -201.6, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -152.2, z: 0}
 --- !u!81 &890120584
 AudioListener:
   m_ObjectHideFlags: 0
@@ -565,7 +565,7 @@ Transform:
   m_GameObject: {fileID: 1108940589}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -761,13 +761,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2107393473}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 50, z: 0}
+  m_LocalRotation: {x: -0.00011650948, y: 0.9998119, z: 0.006356885, w: 0.01832464}
+  m_LocalPosition: {x: 1501, y: 50, z: 2200}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.72900003, y: 177.90001, z: 0}
 --- !u!114 &2107393480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -801,22 +801,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ShowDebugText: 0
-  m_ShowCameraFrustum: 1
-  m_IgnoreTimeScale: 0
-  m_WorldUpOverride: {fileID: 0}
-  m_UpdateMethod: 2
-  m_DefaultBlend:
-    m_Style: 1
-    m_Time: 2
-  m_CustomBlends: {fileID: 0}
-  m_CameraCutEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: Cinemachine.CinemachineBrain+BrainEvent, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  m_CameraActivatedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: Cinemachine.CinemachineBrain+VcamEvent, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
